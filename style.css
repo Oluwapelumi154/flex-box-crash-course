@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  min-height: 100vh;
+  background: #a1c3ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.fas{
+    margin-right: 10px;
+}
+h1,
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.navbar {
+  background: #3474e6;
+  color: #fff;
+  height: 6rem;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 2rem;
+}
+
+.navbar a:hover{
+    color: lightblue;
+}
+
+.hero{
+    background-color: #0151cc;
+    color: #fff;
+    min-height: 400px;
+}
+
+.hero h1{
+    font-size: 3rem;;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cards .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card{
+    flex: 1;
+    background-color:#0a51cc;
+    color: #fff;
+    border-radius: 1rem;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    box-shadow:  0 3px 5px rgba(0,0,00.6);
+}
+.hero p{
+    max-width: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+.footer{
+    background-color:#0a51cc;
+    color: #fff;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col{
+    flex: 1;
+    margin: 20px 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero .container img{
+    max-width: 400px;
+}
+.footer ul li{
+    margin: 1.4rem 0 1.4rem 0;
+}
+
+.footer .container .col span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media screen  and ( max-width: 768px) {
+    .hero .container{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+        justify-content: unset;
+        align-items: center;
+    }
+    .cards .container{
+     display: block;
+     text-align: center;
+    }
+    .hero p {
+        width: 100%;
+    }
+    
+    .footer .container{
+        flex-direction: column;
+        padding-top: 20px;
+        justify-content: unset;
+        padding-bottom : 20px
+       
+    }
+
+    .footer .container .col {
+        margin: 2px;
+    }
+   
+   
+   
+}
